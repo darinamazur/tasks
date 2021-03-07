@@ -1,0 +1,26 @@
+digraph G {
+01->31[label =a]
+11->61[label =a]
+21->41[label =a]
+31->11[label =a]
+41->61[label =a]
+61->11[label =a]
+71->71[label =a]
+01->21[label =b]
+11->01[label =b]
+21->71[label =b]
+31->71[label =b]
+41->31[label =b]
+61->31[label =b]
+71->61[label =b]
+01
+11
+21
+31
+41
+61
+71
+11[style=filled,shape="doublecircle",fillcolor="antiquewhite:aquamarine"]
+31[style=filled,shape="doublecircle",fillcolor="antiquewhite:aquamarine"]
+01[style=filled,shape="rarrow",fillcolor="yellow"]
+}
