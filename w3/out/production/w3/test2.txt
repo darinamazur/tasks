@@ -1,0 +1,26 @@
+/*this is
+comment*/
+for ($i = 1; $i <= 4; $i++) {
+    $bytes = openssl_random_pseudo_bytes($i, $cstrong);
+    $hex = bin2hex($bytes);
+    $1a=4;
+    echo "Lengths: Bytes: $i and Hex: " . strlen($hex) . PHP_EOL;
+    var_dump($hex);
+    $hex1 = 0x047B;
+    $binary = 0b00010101;
+    $flt = 10.25363;
+    $octal = 0345733;
+    $wrong_octal = 05783;
+    $var = 486t8;
+    $str = "$var";
+    $test = 8/2;
+    $str = "I'm";
+    $a += $b;
+    $b = $a**5;
+    $f = $a >< $b;
+    $h = $f xor $a;
+    var_dump($cstrong); #so'mething good echo if for $var
+    echo PHP_EOL; //end____BJOJMKJBHB$fhkewjnfk;;
+    $var[1str];
+    "{$var[5]->{$var1}";
+}
